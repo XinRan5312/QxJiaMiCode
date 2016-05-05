@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        jar="/Users/xinran/mygithub/TestJiaMi/app/build/intermediates/exploded-aar/com.android.support/support-vector-drawable/23.2.0/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="292a9fa091757208efa65e77eef63088247e51f3">
+        <dex dex="/Users/xinran/mygithub/TestJiaMi/app/build/intermediates/pre-dexed/debug/classes-5d3f6812f01313ba4bcf7ea4e78f3ca3c553ac56.jar" />
+    </item>
+    <item
+        jar="/Users/xinran/mygithub/TestJiaMi/app/build/intermediates/exploded-aar/com.android.support/animated-vector-drawable/23.2.0/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="8c108c22c99e794eff255bb34d2a461200c4cbb0">
+        <dex dex="/Users/xinran/mygithub/TestJiaMi/app/build/intermediates/pre-dexed/debug/classes-785626682e0268badfc5fa6e8312faa7579b6c94.jar" />
+    </item>
+    <item
+        jar="/Users/xinran/mygithub/TestJiaMi/app/build/intermediates/exploded-aar/com.android.support/support-v4/23.2.0/jars/libs/internal_impl-23.2.0.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="6e239441500605809818997dd63b62a947195f8c">
+        <dex dex="/Users/xinran/mygithub/TestJiaMi/app/build/intermediates/pre-dexed/debug/internal_impl-23.2.0-72543202b76744ce9a839ea9d7ef4f152f369d64.jar" />
+    </item>
+    <item
+        jar="/Users/xinran/mygithub/TestJiaMi/app/build/intermediates/exploded-aar/com.android.support/support-v4/23.2.0/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="e5f32fa48a3eb2de0c987025c11b6e3864b634d9">
+        <dex dex="/Users/xinran/mygithub/TestJiaMi/app/build/intermediates/pre-dexed/debug/classes-73093f80ae9ff45e902e076c67b4ffec4c284a62.jar" />
+    </item>
+    <item
+        jar="/Users/xinran/mygithub/TestJiaMi/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.2.0/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="6e3578f92f7462d1a935a1d36173e3bdd1234976">
+        <dex dex="/Users/xinran/mygithub/TestJiaMi/app/build/intermediates/pre-dexed/debug/classes-421455adcd1f8f96059d2cf3a31351665172f006.jar" />
+    </item>
+    <item
+        jar="/Users/xinran/android-sdk-macosx/extras/android/m2repository/com/android/support/support-annotations/23.2.0/support-annotations-23.2.0.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="c5bf571bb10462bd90e5419ade67793f71acbc87">
+        <dex dex="/Users/xinran/mygithub/TestJiaMi/app/build/intermediates/pre-dexed/debug/support-annotations-23.2.0-a8397d4141f959bc470bd8470d91822c27f324d6.jar" />
+    </item>
+
+</items>
