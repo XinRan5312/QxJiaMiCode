@@ -1,4 +1,12 @@
 # QxJiaMiCode
+
+  另一种更好的方式：http://blog.csdn.net/z1246300949/article/details/51038245
+  
+AES加密https://www.jianshu.com/p/b0411daf7d7e 另一个方式http://blog.csdn.net/huanongjingchao/article/details/45768847
+    
+    http://blog.csdn.net/suntongo/article/details/51332681
+
+
 关于Android加密哪些事儿 包括hash  MD5 RSA DES等主流加密的原理介绍 和简单示例研究
 
 

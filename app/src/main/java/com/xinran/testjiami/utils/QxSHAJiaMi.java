@@ -51,7 +51,7 @@ public class QxSHAJiaMi {
     public static String shaEncode(String inStr) throws Exception {
         MessageDigest sha = null;
         try {
-            //            MessageDigest md = MessageDigest.getInstance("MD5");
+            // MessageDigest md = MessageDigest.getInstance("MD5");
             sha = MessageDigest.getInstance("SHA");
         } catch (Exception e) {
             System.out.println(e.toString());

@@ -1,19 +1,21 @@
 package com.xinran.testjiami;
 
+import android.app.Activity;
 import android.support.annotation.IdRes;
-import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.Menu;
 import android.view.MenuItem;
 import android.view.View;
 import android.widget.TextView;
 
+import com.xinran.testjiami.utils.IStorage;
+import com.xinran.testjiami.utils.QSharedPreferences;
 import com.xinran.testjiami.utils.QxDESJieMi;
 import com.xinran.testjiami.utils.QxMD5JiaMi;
 
 import java.io.UnsupportedEncodingException;
 
-public class MainActivity extends AppCompatActivity {
+public class MainActivity extends Activity {
     private TextView tv, tv1, tv2;
     private String dataRes = "wr@qx1314";
     private String secruateKey = "123nightQyue";
@@ -31,6 +33,8 @@ public class MainActivity extends AppCompatActivity {
      */
     private void initData(int type) {
         tv.setText(dataRes);
+        IStorage qSharedPreferences=QSharedPreferences.newInstance(this,"rq","wr");
+        qSharedPreferences.putString("qx",dataRes);
         if (type == 1) {
 
             byte b[] = QxDESJieMi.desEncode(dataRes.getBytes(), secruateKey);
@@ -48,12 +52,12 @@ public class MainActivity extends AppCompatActivity {
             }
         } else if (type == 2) {
             String md5StrOne = QxMD5JiaMi.strToMD5(dataRes);//假如第一次传入的String我转换成MD5后保存
-            String md5StrTwo = QxMD5JiaMi.strToMD5("qwertyi");//第二次传入的String我也转成MD5，如果MD5相等说明两次String一样
+            String md5StrTwo = QxMD5JiaMi.strToMD5("wr@qx1314");//第二次传入的String我也转成MD5，如果MD5相等说明两次String一样
             String s = md5StrTwo.equalsIgnoreCase(md5StrOne) ? "1" : "0";
             tv1.setText(s);
             String encodeStr = QxMD5JiaMi.encodeOrDecodeString(dataRes);//加密
             String decodeStr = QxMD5JiaMi.encodeOrDecodeString(encodeStr);//解密 加密解密用的同一个算法
-            tv2.setText(decodeStr);
+            tv2.setText(qSharedPreferences.getString("qx",""));
         }
     }
 

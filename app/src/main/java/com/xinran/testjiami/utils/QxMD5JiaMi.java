@@ -127,7 +127,7 @@ public class QxMD5JiaMi {
     }
     /**
      * 把文件转换成MD5后再加密和解密
-     * 加密和解密算法 执行一次加密，两次解密
+     * 加密和解密算法 执行一次加密，在调用一次就解密了
      */
     public static String encodeOrDecodeString(String inStr){
 
